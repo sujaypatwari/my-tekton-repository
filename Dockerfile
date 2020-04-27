@@ -3,7 +3,7 @@
 FROM node:10-alpine
 
 # Create app directory
-WORKDIR /myapp
+WORKDIR /tmp/workdir
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are
