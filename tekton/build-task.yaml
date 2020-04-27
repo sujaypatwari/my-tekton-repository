@@ -20,7 +20,7 @@ spec:
   steps:
     - name: docker
       image: docker
-      workingDir: /workspace/source
+      workingDir: /tmp/workspace/source
       command: ["docker"]
       args:
         - build
